@@ -58,6 +58,4 @@ If you encounter specific issues with the transliteration, you can adjust the sc
 # Notes
 The Armenian Text Transliteration Script is now equipped with enhanced functionality, supporting transliteration of both individual names and sentences from Armenian to English. It can be adapted to various use cases and different naming conventions.
 
-Feel free to reach out if you have any questions or need assistance with this script. We wish you success in your Armenian text transliteration project!
-
-Note: This README offers a general guide for running the script. Please adapt it to your specific project requirements and documentation style on GitHub.
+Feel free to reach out if you have any questions or need assistance with this script.
