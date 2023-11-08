@@ -1,0 +1,22 @@
+**Guide for Running the Armenian Transliteration Script**
+
+**Step 1: Excel Column Names**
+- Ensure that the first column of your Excel file is named "Armenian" (case-sensitive).
+- The next column should be named "English" to contain the results.
+
+**Step 2: Excel File Name**
+- Save your Excel file with the name "Names."
+
+**Advice on Father's Names:**
+This script was originally designed to transliterate official names, surnames, and father's names.  it considers the last 'ի' character of each cell as the last part of the father's name in Armenian and removes it for transliteration (a common practice when transliterating Armenian full names to English). While this works accurately for standard official Armenian names, in some cases, it might disrupt the transliteration accuracy. You can turn this option off by providing the argument: `exclude_last_char=False`.
+
+**Step 3: Prerequisites**
+Before you begin, ensure you have the following:
+   - Python 3 installed.
+   - Pip installed. You can install pip during Python installation or use the "modify" option in the Python official installer.
+
+**Step 4: Installation**
+1. After confirming that Python and pip are installed, navigate to the directory where the script and "requirements.txt" are located using the terminal. Alternatively, you can provide the full file path instead of just the file name and extension.
+2. Run the following command in the terminal:
+pip install -r requirements.txt
+
